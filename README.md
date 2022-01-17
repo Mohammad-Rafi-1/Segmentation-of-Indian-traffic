@@ -8,7 +8,7 @@ we initialized the Unet which is totally trained on Imagenet dataset and we used
 
 ## 1) Unet architecture
 
-   you can refer this : https://arxiv.org/abs/1505.04597
+         you can refer this : https://arxiv.org/abs/1505.04597
 
    ![alt text](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png)
 
