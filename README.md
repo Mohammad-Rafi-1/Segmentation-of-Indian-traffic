@@ -39,7 +39,7 @@ where dice coefficient = 2TP/(2TP+FP+FN)
 
 Range of a loss function is {0,1}
 
-If model predicts  all True Positives correctly then dice coefficient will be $1$ and dice loss becomes 0  else dice loss will be in between {${0,1}$}  
+If model predicts  all True Positives correctly then dice coefficient will be 1 and dice loss becomes 0  else dice loss will be in between {0,1} 
 
 we can use cross-entropy loss as well but it is sensitive to imbalance dataset , In image segmentation we will deal with images which are having imbalanced labels because of this cross-entropy will not give proper measurement of True positives, people often use dice loss or iou loss for image segmentation task which penalizes the false positives and measure the True positive rate efficiently when compares to cross entropy , they are more robust to imbalance data and it can be  differentiable where we can easily back-propagate to updates weights
 
